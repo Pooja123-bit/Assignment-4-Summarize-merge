@@ -112,5 +112,3 @@ freestyle2=tapply(X=f$parcel.length.m, INDEX= list(f$depth_fac), FUN = fivenum)
 freestyle2
 
 ##group by "depth" and "area_fac" together
-freestyle3=tapply(X=f$parcel.length.m, INDEX= list(f$depth_fac, f$area_fac), FUN = fivenum)
-freestyle3
